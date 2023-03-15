@@ -10,7 +10,7 @@ $('path').click(function () {
         let totalConfirmed = countryData.TotalConfirmed;
         let totalDeaths = countryData.TotalDeaths;
         let countryName = countryData.Country
-        console.log(countryId, totalConfirmed, totalDeaths,);
+        console.log(countryId, totalConfirmed, totalDeaths,countryName);
         
         let infoDiv = $('#country-info');
         infoDiv.empty(); 
