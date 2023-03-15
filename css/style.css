@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --grey-col: #F7F8FC;
+    --light-gray-col:#C3C3DC;
+    --violet-col: #7B6FFF;
+    --violet-dark: #B35EF2;
+    --red-col: #F5444F;
+    --red-gray-col: #C01B10;
+    --green-col: #2DCAAC;
+    --orange-col: #FFA722;
+}
+body{
+    background-color: var(--grey-col);
+}
+/*********************header**********************/
+.logo{
+    width: 30px;
+    margin-right: 10px;
+}
+.nav-link{
+    font-size: 15px;
+    margin-right: 25px;
+}
+.nav-link i{
+    font-size: 15px;
+    padding-right: 10px;
+}
+.nav-link:hover,.active i,.active a{
+    color: var(--violet-col);
+}
+/*********************header**********************/
+/**********************main***********************/
+.stat{
+    padding: 15px 25px;
+    width: 40%;
+    height: 100px;
+    margin: 10px;
+    align-items: center;
+}
+.stat i{
+    border-radius: 50%;
+    width: 30%;
+    padding: 10px;
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.fa-users{
+    background-color: var(--violet-col);
+}
+.fa-bed-pulse{
+    background-color: var(--red-col);
+}
+.fa-child-reaching{
+    background-color: var(--green-col);
+}
+.fa-bell{
+    background-color: var(--orange-col);
+}
+.fa-bed{
+    background-color: var(--red-gray-col);
+}
+.fa-suitcase-medical{
+    background-color: var(--violet-dark);
+}
+.stat p{
+    margin: 10px;
+    color: var(--light-gray-col);
+}
+
+/* /***************/
+.svgcontent{
+    margin: 120px auto;
+}
+/**********************main***********************/
