@@ -78,6 +78,9 @@ body{
 
 /* /***************/
 .svgcontent{
-    margin: 120px auto;
+    margin: 50px auto;
+}
+.svgcontent h2{
+    margin-bottom: 70px;
 }
 /**********************main***********************/
