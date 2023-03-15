@@ -1,3 +1,6 @@
+/****************************************************/  
+/*****************map country statistics*******************/ 
+/****************************************************/ 
 $('path').click(function () { 
   let countryId = $(this).attr('id');
   let apiUrl = 'https://api.covid19api.com/summary';
@@ -28,39 +31,7 @@ $('path').click(function () {
 });
 
 /****************************************************/  
-// var data = null;
-
-// var xhr = new XMLHttpRequest();
-// xhr.withCredentials = true;
-
-// xhr.addEventListener("readystatechange", function () {
-//   if (this.readyState === this.DONE) {
-//     console.log(this.responseText);
-//   }
-// });
-
-// xhr.open("GET", "https://api.collectapi.com/corona/countriesData");
-// xhr.setRequestHeader("content-type", "application/json");
-// xhr.setRequestHeader("authorization", "apikey 6tL7aLe95o0bT2ZQ8LZjpC:0v94swPwCmMpOD1pWkkUVA");
-
-// xhr.send(data);
-// console.log(xhr);
-// const options = {
-// 	method: 'GET',
-// 	headers: {
-// 		'X-RapidAPI-Key': '45d64cddacmsh0d048a5f2ce5abep194a3fjsn34c74e2464e9',
-// 		'X-RapidAPI-Host': 'covid-193.p.rapidapi.com'
-// 	}
-// };
-
-// fetch('https://api.covid19api.com/summary')
-// 	.then(response => response.json())
-// 	.then(response => console.log(response))
-// 	.catch(err => console.error(err));
-  /*********************************************************/ 
-  // fetch('./js/data.json').then(response => response.json())
-  // .then(data => console.log(data)).catch(err => console.error(err));
-
+/*****************chart statisique*******************/ 
 /****************************************************/  
 fetch('https://disease.sh/v3/covid-19/all')
   .then((response) => {
